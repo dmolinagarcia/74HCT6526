@@ -5,5 +5,9 @@ Even though the project begun back in July 2018, it's currently going through a 
 > ###### Important note
 > Please visit http://forum.6502.org/viewtopic.php?f=4&t=5593 for more information
 
+# Releases
+* v0.1 First production run. Only includes B0 (DDR and PORTs)
+
 # Status updates
+* October 3rd, 2021. v0.1 is released
 * September 12th, 2021. Repository is now public. B0 schematic is 100% done. PCB layout is 100% done. It's currently being reviewed before sending it into production
