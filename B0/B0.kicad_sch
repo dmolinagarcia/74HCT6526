@@ -12,9 +12,10 @@
   (lib_symbols
   )
 
-  (bus_alias "ENABLEBUS" (members "~EN[0..15]"))
-  (bus_alias "CONTROLBUS" (members "TASTART" "CNT" "SP" "PHI2" "~FLAG" "TOD" "TAPULSE" "TBPULSE" "TODIRQ" "~IRQ" "PB6ON" "PB7ON" "TAOUT" "TBOUT" "SPMODE" "TODIN" "ALARM" "ENABLE_NAND" "TARUNMODE" "~RES"))
   (bus_alias "DATABUS" (members "D[0..7]" "DZ[0..7]"))
+  (bus_alias "CONTROLBUS" (members "TASTART" "CNT" "SP" "PHI2" "~FLAG" "TOD" "TAPULSE" "TBPULSE" "TODIRQ" "~IRQ" "PB6ON" "PB7ON" "TAOUT" "TBOUT" "SPMODE" "TODIN" "ALARM" "ENABLE_NAND" "TARUNMODE" "~RES"))
+  (bus_alias "ENABLEBUS" (members "~EN[0..15]"))
+
   (junction (at 48.26 111.76) (diameter 1.016) (color 0 0 0 0))
   (junction (at 115.57 25.4) (diameter 1.016) (color 0 0 0 0))
   (junction (at 115.57 53.34) (diameter 1.016) (color 0 0 0 0))
