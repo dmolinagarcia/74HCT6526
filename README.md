@@ -6,7 +6,14 @@ Even though the project begun back in July 2018, it's currently going through a 
 > Please visit http://forum.6502.org/viewtopic.php?f=4&t=5593 for more information
 
 # Releases
-* v0.1 First production run. Only includes B0 (DDR and PORTs)
+* v0.1.0 First production run. Only includes B0 (DDR and PORTs)
+
+# Changelog
+## [Unreleased]
+
+## [0.1.0] - 2021-10-03
+### Added
+B0 with DDRs, PORTs, and bus interface
 
 # Status updates
 * October 3rd, 2021. v0.1 is released
