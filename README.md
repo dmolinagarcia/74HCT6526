@@ -16,5 +16,5 @@ Even though the project begun back in July 2018, it's currently going through a 
 B0 with DDRs, PORTs, and bus interface
 
 # Status updates
-* October 3rd, 2021. v0.1 is released
+* October 3rd, 2021. v0.1.0 is released
 * September 12th, 2021. Repository is now public. B0 schematic is 100% done. PCB layout is 100% done. It's currently being reviewed before sending it into production
