@@ -10,10 +10,12 @@ Even though the project begun back in July 2018, it's currently going through a 
 
 # Changelog
 ## [Unreleased]
+## [0.1.1] - 2021-10-18
+* Mounting holes pads were covered with soldermask. Soldermask removed and pads properly labeled.
+* Updated gerber files
 
 ## [0.1.0] - 2021-10-03
-### Added
-B0 with DDRs, PORTs, and bus interface
+* B0 with DDRs, PORTs, and bus interface
 
 # Status updates
 * October 3rd, 2021. v0.1.0 is released
