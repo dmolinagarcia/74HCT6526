@@ -1,0 +1,18 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 5618b61c-7102-41db-a21f-81f36c42bb6e)
+
+  (paper "A4")
+
+  (title_block
+    (title "74HCT6526 Board 1")
+    (date "2022-03-20")
+    (rev "0.0")
+    (company "Daniel Molina")
+    (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
+  )
+
+  (lib_symbols
+  )
+
+)

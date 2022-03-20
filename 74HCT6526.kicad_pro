@@ -134,83 +134,6 @@
         0,
         0,
         0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        2
-      ],
-      [
-        0,
-        1,
-        0,
-        0,
-        0,
-        1,
-        1,
-        2,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        1,
         0,
         1,
         0,
@@ -222,8 +145,107 @@
       [
         0,
         2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
         1,
         2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
         0,
         1,
         0,
@@ -238,18 +260,6 @@
         0,
         1,
         0,
-        1,
-        0,
-        2,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        1,
         0,
         1,
         0,
@@ -259,6 +269,21 @@
         2
       ],
       [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
         2,
         2,
         2,
@@ -274,12 +299,15 @@
     ],
     "rule_severities": {
       "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
       "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
+      "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
@@ -293,6 +321,8 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
     }
@@ -326,7 +356,7 @@
       }
     ],
     "meta": {
-      "version": 0
+      "version": 2
     },
     "net_colors": null
   },
@@ -342,6 +372,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
+    "annotate_start_num": 0,
     "drawing": {
       "default_bus_thickness": 12.0,
       "default_junction_size": 36.0,
@@ -349,20 +380,31 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
+      "label_size_ratio": 0.3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
@@ -388,7 +430,7 @@
       "B1"
     ],
     [
-      "d60c754b-8a4d-4810-ad88-3e4d070c27a2",
+      "d1df943f-6112-4f25-89ec-0b0227297131",
       ""
     ],
     [
@@ -396,15 +438,7 @@
       "B0"
     ],
     [
-      "ab70af84-b545-4f99-8702-a579edb051a6",
-      "buses"
-    ],
-    [
-      "a512fa78-7ea1-40a6-bd2e-d62d1f66c73d",
-      "buses"
-    ],
-    [
-      "1aa4f574-5578-4671-b757-dceb4a258cef",
+      "8ab4ca08-d71d-4254-8eb7-31fef72c2a95",
       "buses"
     ],
     [
@@ -412,40 +446,48 @@
       "buses"
     ],
     [
-      "6b69d9a9-a1b3-4883-9897-b72666ce7b5e",
-      "portb"
+      "1aa4f574-5578-4671-b757-dceb4a258cef",
+      "buses"
     ],
     [
-      "808184de-cea1-4fcf-8e5d-227240104fae",
-      "ddrb"
+      "a512fa78-7ea1-40a6-bd2e-d62d1f66c73d",
+      "buses"
     ],
     [
-      "506dcf3a-1888-457a-bde7-98d8ccb85e5a",
-      "porta"
+      "ab70af84-b545-4f99-8702-a579edb051a6",
+      "buses"
     ],
     [
       "b442d945-5071-4028-b3c7-53f2c4cacb88",
       "ddra"
     ],
     [
-      "8d4bae2f-b118-40a6-8955-6b06f32615aa",
-      "power"
-    ],
-    [
-      "10bca960-afb3-486e-8dec-f8c5977a594b",
-      "resetData"
-    ],
-    [
-      "a2aa4f43-286a-4394-8e4b-55449343fc3c",
-      "regDecoder"
+      "808184de-cea1-4fcf-8e5d-227240104fae",
+      "ddrb"
     ],
     [
       "8ea3bdc7-33ca-45a7-b81f-4aff9c8e5093",
       "icInterface"
     ],
     [
-      "8ab4ca08-d71d-4254-8eb7-31fef72c2a95",
-      "buses"
+      "506dcf3a-1888-457a-bde7-98d8ccb85e5a",
+      "porta"
+    ],
+    [
+      "6b69d9a9-a1b3-4883-9897-b72666ce7b5e",
+      "portb"
+    ],
+    [
+      "8d4bae2f-b118-40a6-8955-6b06f32615aa",
+      "power"
+    ],
+    [
+      "a2aa4f43-286a-4394-8e4b-55449343fc3c",
+      "regDecoder"
+    ],
+    [
+      "10bca960-afb3-486e-8dec-f8c5977a594b",
+      "resetData"
     ]
   ],
   "text_variables": {}

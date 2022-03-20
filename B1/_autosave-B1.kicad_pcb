@@ -205,7 +205,7 @@
 
   (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 24f7628d-681d-4f0e-8409-40a129e929d9)
-    (at 177.983 89.257 90)
+    (at 177.622 104.066 90)
     (descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "B1.kicad_sch")
@@ -346,7 +346,7 @@
 
   (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 666713b0-70f4-42df-8761-f65bc212d03b)
-    (at 178.059 97.611 90)
+    (at 177.698 112.42 90)
     (descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "B1.kicad_sch")
@@ -415,7 +415,7 @@
 
   (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 68b52f01-fa04-4908-bf88-60c62ace1cfa)
-    (at 178.059 106.118 90)
+    (at 177.698 120.927 90)
     (descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "B1.kicad_sch")
@@ -569,7 +569,7 @@
 
   (footprint "Package_SO:SO-20_12.8x7.5mm_P1.27mm" (layer "F.Cu")
     (tedit 5A02F2D3) (tstamp 9529c01f-e1cd-40be-b7f0-83780a544249)
-    (at 178.026 56.88 90)
+    (at 177.665 71.689 90)
     (descr "SO-20, 12.8x7.5mm, https://www.nxp.com/docs/en/data-sheet/SA605.pdf")
     (tags "S0-20 ")
     (property "Sheetfile" "crega.kicad_sch")
@@ -757,7 +757,7 @@
 
   (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm" (layer "F.Cu")
     (tedit 5F427CE7) (tstamp 9da855b0-f953-4d94-ac15-68c62fcf943f)
-    (at 177.998 80.795 90)
+    (at 177.637 95.604 90)
     (descr "SO, 14 Pin (https://www.st.com/resource/en/datasheet/l6491.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SO SO")
     (property "Sheetfile" "B1.kicad_sch")
@@ -826,7 +826,7 @@
 
   (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm" (layer "F.Cu")
     (tedit 5F427CE7) (tstamp b576af53-9779-4b42-bea4-4d91783d8c4b)
-    (at 178.135 114.473 90)
+    (at 177.774 129.282 90)
     (descr "SO, 14 Pin (https://www.st.com/resource/en/datasheet/l6491.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SO SO")
     (property "Sheetfile" "B1.kicad_sch")
@@ -895,7 +895,7 @@
 
   (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp c454102f-dc92-4550-9492-797fc8e6b49c)
-    (at 178.074 69.738 90)
+    (at 177.713 84.547 90)
     (descr "SOIC, 20 Pin (JEDEC MS-013AC, https://www.analog.com/media/en/package-pcb-resources/package/233848rw_20.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "crega.kicad_sch")
@@ -1066,7 +1066,7 @@
 
   (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm" (layer "F.Cu")
     (tedit 5F427CE7) (tstamp debb48c2-0606-4abf-b967-c5cd55bd0d6c)
-    (at 178.135 122.751 90)
+    (at 177.774 137.56 90)
     (descr "SO, 14 Pin (https://www.st.com/resource/en/datasheet/l6491.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SO SO")
     (property "Sheetfile" "B1.kicad_sch")

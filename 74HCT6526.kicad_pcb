@@ -1,4 +1,4 @@
-(kicad_pcb (version 20201220) (generator pcbnew)
+(kicad_pcb (version 20211014) (generator pcbnew)
 
   (general
     (thickness 1.6)
@@ -38,6 +38,7 @@
   )
 
   (setup
+    (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -55,6 +56,9 @@
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15.000000)
+      (dxfpolygonmode true)
+      (dxfimperialunits true)
+      (dxfusepcbnewfont true)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -69,7 +73,6 @@
       (outputdirectory "")
     )
   )
-
 
   (net 0 "")
 
