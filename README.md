@@ -10,6 +10,7 @@ Even though the project begun back in July 2018, it's currently going through a 
 
 # Changelog
 ## [Unreleased]
+* B1 with TimerA and Control Register A. Ready for production. 
 
 ## [0.1.0] - 10-19-2021
 * Mounting holes pads were covered with soldermask. Soldermask removed and pads properly labeled.
