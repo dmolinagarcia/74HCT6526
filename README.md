@@ -10,6 +10,13 @@ Even though the project begun back in July 2018, it's currently going through a 
 * v0.1.0a First production run for B1. (TIMERA and CREGA)
 
 # Changelog
+## [UNRELEASED]
+* B2. First release. 
+* B1. Fixed additional cycle on forceload by removing second flipflop in the chain (rolled-back)
+      Added additionad dFF to Start before being fed into the timer
+      D and DZ moved to separate buses on schematic.
+* B0. Routing optimized. D and DZ moved to separate buses on schematic. Silkscreen improved. 
+
 ## [0.1.0a] - 06-06-2022
 * B1 with TimerA and Control Register A. Ready for production. 
 

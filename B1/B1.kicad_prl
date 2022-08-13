@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 37,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [
@@ -100,7 +100,6 @@
       "/timera/timer16/~{TIMER_UNDERFLOW}",
       "unconnected-(U115-Pad6)",
       "unconnected-(U115-Pad8)",
-      "unconnected-(U115-Pad9)",
       "/timera/TATOGGLE",
       "/crega/WE14",
       "Net-(U126-Pad3)",
@@ -161,7 +160,7 @@
       "Net-(U113-Pad11)",
       "unconnected-(U109-Pad5)"
     ],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 2,
     "opacity": {
       "pads": 1.0,
@@ -219,7 +218,7 @@
       35,
       36
     ],
-    "visible_layers": "ffd3ef0_fffffffd",
+    "visible_layers": "ffd3ef0_fffffff9",
     "zone_display_mode": 0
   },
   "meta": {
