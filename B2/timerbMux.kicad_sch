@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "74HCT6526 Board 2")
+    (date "2022-08-17")
+    (rev "0.1")
+    (company "Daniel Molina")
+    (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
+  )
+
   (lib_symbols
     (symbol "74xx:74LS153" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 21.59 0)
@@ -754,7 +762,7 @@
   (symbol (lib_id "Custom 74xx:74HC08") (at 93.98 83.82 0) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid 4888bc53-88a8-44a3-b0f9-906b3043fe61)
-    (property "Reference" "U306" (id 0) (at 92.71 83.82 0))
+    (property "Reference" "U229" (id 0) (at 92.71 83.82 0))
     (property "Value" "74HC08" (id 1) (at 93.98 78.8186 0))
     (property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm" (id 2) (at 93.98 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -831,7 +839,7 @@
   (symbol (lib_id "74xx:74LS153") (at 149.86 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e463713d-9cb6-480a-967c-c3e65ac2a896)
-    (property "Reference" "U307" (id 0) (at 151.8794 62.0735 0)
+    (property "Reference" "U218" (id 0) (at 151.8794 62.0735 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC153" (id 1) (at 151.8794 64.8486 0)
