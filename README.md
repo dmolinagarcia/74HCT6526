@@ -8,9 +8,10 @@ Even though the project begun back in July 2018, it's currently going through a 
 # Releases
 * v0.1.0  First production run. Only includes B0 (DDR and PORTs)
 * v0.1.0a First production run for B1. (TIMERA and CREGA)
+* v0.1.1  Second production run for B1. Fixes TASTART issue. First B2 (TIMERB and CREGB) 
 
 # Changelog
-## [UNRELEASED]
+## [0.1.1 ] - 08-24-2022 
 * B2. First release. 
 * B1. Fixed additional cycle on forceload by removing second flipflop in the chain (rolled-back)
       Added additionad dFF to Start before being fed into the timer
@@ -27,6 +28,7 @@ Even though the project begun back in July 2018, it's currently going through a 
 * B0 with DDRs, PORTs, and bus interface
 
 # Status updates
+* August 24, 2022. v0.1.1 released. Fixes a bug in B1 (TASTART) and adds B2. Minor routing fixes to all boards.
 * June 06, 2022. v0.1.0a released. It adds B1 to v0.1.0
 * October 19, 2021. v0.1.0 is released. It add B0 to v0.1.0
 * September 12th, 2021. Repository is now public. B0 schematic is 100% done. PCB layout is 100% done. It's currently being reviewed before sending it into production
