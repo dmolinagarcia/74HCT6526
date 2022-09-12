@@ -11,6 +11,10 @@ Even though the project begun back in July 2018, it's currently going through a 
 * v0.1.1  Second production run for B1. Fixes TASTART issue. First B2 (TIMERB and CREGB) 
 
 # Changelog
+## Unreleased
+* B3. First release. SDR schematic done
+* B2. Updates for JLCPCB capabilities
+
 ## [0.1.1 ] - 08-24-2022 
 * B2. First release. 
 * B1. Fixed additional cycle on forceload by removing second flipflop in the chain (rolled-back)
