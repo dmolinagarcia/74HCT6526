@@ -2,6 +2,7 @@
   "board": {
     "active_layer": 0,
     "active_layer_preset": "",
+    "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -32,7 +33,6 @@
       3,
       4,
       5,
-      6,
       8,
       9,
       10,
@@ -50,21 +50,24 @@
       22,
       23,
       24,
+      25,
+      26,
       27,
       28,
       29,
       30,
-      31,
       32,
       33,
-      37,
-      38
+      34,
+      35,
+      36
     ],
-    "visible_layers": "7fdffff_80000007"
+    "visible_layers": "ffdffff_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "B3.kicad_prl",
-    "version": 2
+    "version": 3
   },
   "project": {
     "files": []
