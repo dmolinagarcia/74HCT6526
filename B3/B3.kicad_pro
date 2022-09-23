@@ -103,23 +103,23 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.09999999999999999,
+        "min_clearance": 0.127,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.5,
-        "min_microvia_diameter": 0.44999999999999996,
-        "min_microvia_drill": 0.19999999999999998,
+        "min_microvia_diameter": 0.5599999999999999,
+        "min_microvia_drill": 0.25,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.19999999999999998,
-        "min_track_width": 0.09,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.39999999999999997,
+        "min_through_hole_diameter": 0.25,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.15239999999999998,
+        "min_via_diameter": 0.5599999999999999,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0,
-        0.0889,
-        0.127
+        0.127,
+        0.5
       ],
       "via_dimensions": [
         {
@@ -127,8 +127,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
-          "drill": 0.2
+          "diameter": 0.56,
+          "drill": 0.25
         }
       ],
       "zones_allow_external_fillets": false,
@@ -141,7 +141,18 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|1574800|457200|bd71d675-3635-47d0-b35f-d87e377d68e8|15dc2865-0a02-4697-9426-c0d3741dfe69",
+      "pin_to_pin|1574800|482600|91916460-307a-4ae1-ba88-649b99bfd4ba|90c50d14-db5a-4a89-80ae-fbdc9aa2c408",
+      "pin_to_pin|1574800|508000|1728bb59-5a39-40ca-be6e-b33327691950|57687a02-6bcf-48d2-8a7a-c20268383a8e",
+      "pin_to_pin|1574800|533400|49ad9db0-3637-47b9-98a7-37126e83f2d3|99ef44a6-3df7-4209-891d-fdeab0160310",
+      "pin_to_pin|1574800|558800|71918fb2-f940-46be-a73a-8fcd99a4ca24|1721be11-1fe4-456f-baab-4123165c81d7",
+      "pin_to_pin|1574800|584200|c159c0ab-f535-4865-8c48-7bea7a672d6d|331603f8-4cd4-4729-9bb2-b11f6e92b718",
+      "pin_to_pin|1574800|609600|89697a54-0ea6-4bc8-b096-15827049bbd7|817d8a58-dfd2-4c65-9653-c6dd3c4c37a8",
+      "pin_to_pin|1574800|635000|5b7d8e87-335a-4673-8194-886c8a1109f8|2ab7e1c6-963b-41cd-8ba7-23aef0f81adc",
+      "power_pin_not_driven|1346200|520700|5c138ee6-a618-4590-8cbf-5d71db8e25e9|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|1473200|292100|be896b10-03e5-4315-8c0b-dcc58d62bef7|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -357,7 +368,7 @@
     "classes": [
       {
         "bus_width": 6.0,
-        "clearance": 0.1,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -368,13 +379,13 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
-        "via_diameter": 0.5,
-        "via_drill": 0.2,
+        "via_diameter": 0.56,
+        "via_drill": 0.25,
         "wire_width": 6.0
       },
       {
         "bus_width": 6.0,
-        "clearance": 0.1,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -403,13 +414,13 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
-        "via_diameter": 0.5,
-        "via_drill": 0.2,
+        "via_diameter": 0.56,
+        "via_drill": 0.25,
         "wire_width": 6.0
       },
       {
         "bus_width": 6.0,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -424,13 +435,13 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
-        "via_diameter": 0.5,
-        "via_drill": 0.2,
+        "via_diameter": 0.56,
+        "via_drill": 0.25,
         "wire_width": 6.0
       },
       {
         "bus_width": 6.0,
-        "clearance": 0.1,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -459,8 +470,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
-        "via_diameter": 0.5,
-        "via_drill": 0.2,
+        "via_diameter": 0.56,
+        "via_drill": 0.25,
         "wire_width": 6.0
       }
     ],
@@ -553,6 +564,18 @@
     [
       "08cd0747-3624-4251-9104-81e81adf48f3",
       "sdrController"
+    ],
+    [
+      "6ac12df0-6226-4d30-947c-27d74eb345ea",
+      "icr"
+    ],
+    [
+      "75690eac-5e88-44d0-90e0-6b3ef565756f",
+      "icrRegister"
+    ],
+    [
+      "de5d14ee-70d2-45ec-9f9c-f4568d1a6c84",
+      "icrControl"
     ]
   ],
   "text_variables": {}
