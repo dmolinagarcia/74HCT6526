@@ -3077,7 +3077,7 @@
     (in_bom yes) (on_board yes)
     (uuid a20aeef1-22ae-4480-96ea-d767ed513bf5)
     (property "Reference" "U229" (id 0) (at 107.315 105.41 0))
-    (property "Value" "74HC08" (id 1) (at 107.95 100.4086 0))
+    (property "Value" "74HCT08" (id 1) (at 107.95 100.4086 0))
     (property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm" (id 2) (at 107.95 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )

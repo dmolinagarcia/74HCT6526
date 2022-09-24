@@ -3406,7 +3406,7 @@
     (property "Reference" "U229" (id 0) (at 143.002 49.8915 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74HC08" (id 1) (at 143.002 52.6666 0)
+    (property "Value" "74HCT08" (id 1) (at 143.002 52.6666 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm" (id 2) (at 137.16 50.8 0)

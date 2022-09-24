@@ -11,8 +11,13 @@ Even though the project begun back in July 2018, it's currently going through a 
 * v0.1.1  Second production run for B1. Fixes TASTART issue. First B2 (TIMERB and CREGB) 
 
 # Changelog
+## Pending
+* B3. Review and verify. Inverter for SDR input register missing?
+* B2. Changes to silkscreen (U229 type changed to HCT, U205 value added)
+
 ## Unreleased
 * B3. First release. SDR schematic done
+* B3. Added ICR and layout
 * B2. Updates for JLCPCB capabilities
 
 ## [0.1.1 ] - 08-24-2022 
