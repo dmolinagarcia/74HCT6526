@@ -19,6 +19,7 @@ Even though the project begun back in July 2018, it's currently going through a 
 * B3. First release. SDR schematic done
 * B3. Added ICR and layout
 * B2. Updates for JLCPCB capabilities
+* All boards. Schematic review. Added /RES capacitor to prevent false restarts.
 
 ## [0.1.1 ] - 08-24-2022 
 * B2. First release. 

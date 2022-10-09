@@ -6,8 +6,8 @@
 
   (title_block
     (title "74HCT6526 Board 2")
-    (date "2022-08-17")
-    (rev "0.1")
+    (date "2022-10-08")
+    (rev "0.1.2")
     (company "Daniel Molina")
     (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
   )
@@ -1051,6 +1051,9 @@
     (path "/7b204870-5d79-4126-8397-05c615b11ad5/644286da-0bd1-4bc0-92b3-247571d5b219"
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d71e373b-2126-4572-b605-db646e364722/cdf4b441-789f-4a17-ae22-3493283fd296"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+    )
     (path "/d71e373b-2126-4572-b605-db646e364722/c7d8fc95-c06a-4006-951e-c3cddcdc32e0"
       (reference "#PWR0302") (unit 1) (value "VCC") (footprint "")
     )
@@ -1251,6 +1254,9 @@
     )
     (path "/6fb2cbba-12b5-496b-a736-e77b240a15fe/3a40b38f-c487-4672-a3e3-25dc88bb9205/6f89b4eb-9455-4af9-8896-ba6ca8d2871a"
       (reference "#PWR0370") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d71e373b-2126-4572-b605-db646e364722/505c0ac9-7700-474b-8a0a-44242e491408"
+      (reference "C230") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/c09c7409-d5b2-4c4f-a820-cde0cb763f7f/2b2ab805-c4f5-412b-8037-f39a8eede87b"
       (reference "C302") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")

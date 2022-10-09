@@ -6,8 +6,8 @@
 
   (title_block
     (title "74HCT6526 Board 0")
-    (date "2022-08-17")
-    (rev "0.4")
+    (date "2022-10-08")
+    (rev "0.1.2")
     (company "Daniel Molina")
     (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
   )
@@ -788,7 +788,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 47baf4b1-0938-497d-88f9-671136aa8be7)
   )
-  (label "~{PHI2}" (at 281.94 25.4 180)
+  (label "~{PHI2}" (at 284.48 25.4 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 48ab88d7-7084-4d02-b109-3ad55a30bb11)
   )
@@ -1414,6 +1414,9 @@
     (path "/8ea3bdc7-33ca-45a7-b81f-4aff9c8e5093/41fb8e31-99d2-406c-ad4f-a0687efe8b83"
       (reference "#PWR0114") (unit 1) (value "VCC") (footprint "")
     )
+    (path "/8ab4ca08-d71d-4254-8eb7-31fef72c2a95/abf49d68-554a-4336-9604-1b81f0c2389a"
+      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
+    )
     (path "/8d4bae2f-b118-40a6-8955-6b06f32615aa/d5d77f31-0456-4b05-b49a-1b52e4ace104"
       (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
     )
@@ -1539,6 +1542,9 @@
     )
     (path "/8d4bae2f-b118-40a6-8955-6b06f32615aa/e69e7777-eb65-4772-aa44-52eec408ba35"
       (reference "C032") (unit 1) (value "C") (footprint "74hct6526.footprints:0603_SMD")
+    )
+    (path "/8ab4ca08-d71d-4254-8eb7-31fef72c2a95/182e5014-3833-462f-bbe2-3830e8c34674"
+      (reference "C033") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/8ab4ca08-d71d-4254-8eb7-31fef72c2a95/7f45c487-1782-49bd-9ad2-e522697f4099"
       (reference "CONTROLBUS0") (unit 1) (value "Conn_02x10_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical")

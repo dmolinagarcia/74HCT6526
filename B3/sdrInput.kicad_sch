@@ -6,8 +6,10 @@
 
   (title_block
     (title "74HCT6526 Board 3")
-    (date "2022-09-11")
-    (rev "0.1")
+    (date "2022-10-08")
+    (rev "0.1.2")
+    (company "Daniel Molina")
+    (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
   )
 
   (lib_symbols

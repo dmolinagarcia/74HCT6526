@@ -130,18 +130,30 @@
 
   (sheet_instances
     (path "/" (page "1"))
-    (path "/d60c754b-8a4d-4810-ad88-3e4d070c27a2" (page "2"))
+    (path "/ab70af84-b545-4f99-8702-a579edb051a6" (page "2"))
   )
 
   (symbol_instances
-    (path "/d60c754b-8a4d-4810-ad88-3e4d070c27a2/4f969b3e-0b1e-4395-9e13-08e8471395a3"
-      (reference "CONTROLBUS1") (unit 1) (value "") (footprint "")
+    (path "/ab70af84-b545-4f99-8702-a579edb051a6/f78b042a-4552-4f7d-ac8f-8fe4cef70053"
+      (reference "#PWR01") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/d60c754b-8a4d-4810-ad88-3e4d070c27a2/ef803d93-4b9b-4b99-928e-9777ad9ca678"
-      (reference "DATABUS1") (unit 1) (value "") (footprint "")
+    (path "/ab70af84-b545-4f99-8702-a579edb051a6/c598da4b-31f3-42b1-9a30-b08c49277ec6"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
     )
-    (path "/d60c754b-8a4d-4810-ad88-3e4d070c27a2/076004c5-3484-4842-b98e-622b409b3712"
-      (reference "ENABLEBUS1") (unit 1) (value "") (footprint "")
+    (path "/ab70af84-b545-4f99-8702-a579edb051a6/e3be3774-d96b-4691-b5c1-f2d1d98ce8a5"
+      (reference "#PWR03") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/ab70af84-b545-4f99-8702-a579edb051a6/a9304d6e-04ff-44ca-9f4c-52a09f65354b"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ab70af84-b545-4f99-8702-a579edb051a6/eb77a2b8-05ae-49a3-b81c-407677587e70"
+      (reference "CONTROLBUS4") (unit 1) (value "Conn_02x10_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical")
+    )
+    (path "/ab70af84-b545-4f99-8702-a579edb051a6/9dd0d664-40f5-4745-a6d2-b3dc577ebd78"
+      (reference "DATABUS4") (unit 1) (value "Conn_02x10_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical")
+    )
+    (path "/ab70af84-b545-4f99-8702-a579edb051a6/155188bd-3210-4356-b228-2c0ae3e87b5f"
+      (reference "ENABLEBUS4") (unit 1) (value "Conn_02x10_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical")
     )
   )
 )
