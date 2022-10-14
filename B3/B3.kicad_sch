@@ -410,8 +410,8 @@
   )
 
   (bus_alias "ENABLEBUS" (members "~{EN[0..15]}"))
-  (bus_alias "CONTROLBUS" (members "TASTART" "CNT" "SP" "PHI2" "~{FLAG}" "TOD" "TAPULSE" "TBPULSE" "TODIRQ" "~{IRQ}" "PB6ON" "PB7ON" "TAOUT" "TBOUT" "SPMODE" "TODIN" "ALARM" "ENABLE_NAND" "TARUNMODE" "~{RES}"))
   (bus_alias "DATABUS" (members "D[0..7]" "DZ[0..7]"))
+  (bus_alias "CONTROLBUS" (members "TASTART" "CNT" "SP" "PHI2" "~{FLAG}" "TOD" "TAPULSE" "TBPULSE" "TODIRQ" "~{IRQ}" "PB6ON" "PB7ON" "TAOUT" "TBOUT" "SPMODE" "TODIN" "ALARM" "ENABLE_NAND" "TARUNMODE" "~{RES}"))
   (junction (at 83.82 33.02) (diameter 0) (color 0 0 0 0)
     (uuid 0255ec1e-2cd3-4622-815f-49832ac48cf7)
   )
@@ -874,7 +874,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 501ba35a-dc2c-4082-8a3c-183177fbc2ad)
   )
-  (label "SDRIRQ" (at 152.4 96.52 0)
+  (label "~{SDRIRQ}" (at 152.4 96.52 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5565b0e2-f200-4321-b2fa-4ee361a09733)
   )
@@ -1037,7 +1037,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid a4607f8e-938c-4a62-8a04-ecc31d237bb5)
     )
-    (pin "SDRIRQ" output (at 149.86 96.52 0)
+    (pin "~{SDRIRQ}" output (at 149.86 96.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid a913e6b9-71e7-4f1c-ac89-85c3c7e23dcd)
     )
@@ -1085,7 +1085,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 62db1141-d9df-4e39-998f-5feb509ede8f)
     )
-    (pin "SDRIRQ" input (at 190.5 96.52 180)
+    (pin "~{SDRIRQ}" input (at 190.5 96.52 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 222fe42e-678b-4ed1-b6e4-c94b4060a723)
     )
@@ -1629,7 +1629,7 @@
     (path "/108743f5-032b-46ed-a6db-6b8bf543e425/08cd0747-3624-4251-9104-81e81adf48f3/3292b36d-fb84-4621-b34a-b22cdc0984ba"
       (reference "U316") (unit 3) (value "74HC00") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
-    (path "/c7e691f1-3826-4fda-8caf-e0d6c99d6f96/e9e07058-34a8-470c-a7cf-5a2cf0cdddc0"
+    (path "/108743f5-032b-46ed-a6db-6b8bf543e425/08cd0747-3624-4251-9104-81e81adf48f3/006d0d53-2980-46fc-9296-d4a5612be9c7"
       (reference "U316") (unit 4) (value "74HC00") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
     (path "/c7e691f1-3826-4fda-8caf-e0d6c99d6f96/e0132d9d-7349-406a-9f1f-e90716996983"
@@ -1863,7 +1863,7 @@
     (path "/6ac12df0-6226-4d30-947c-27d74eb345ea/de5d14ee-70d2-45ec-9f9c-f4568d1a6c84/5f3f978d-1cf7-4a2e-9482-4605b485f31a"
       (reference "U335") (unit 2) (value "74HC04") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
-    (path "/6ac12df0-6226-4d30-947c-27d74eb345ea/de5d14ee-70d2-45ec-9f9c-f4568d1a6c84/3184a564-686d-48c3-907b-2ee2127eb850"
+    (path "/c7e691f1-3826-4fda-8caf-e0d6c99d6f96/cafb36af-fa7e-4a81-8a3a-a73d830c5f36"
       (reference "U335") (unit 3) (value "74HC04") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
     (path "/6ac12df0-6226-4d30-947c-27d74eb345ea/de5d14ee-70d2-45ec-9f9c-f4568d1a6c84/c26116e7-1af3-498f-b18f-8b7028cc56af"
