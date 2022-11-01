@@ -1605,7 +1605,7 @@
     (path "/108743f5-032b-46ed-a6db-6b8bf543e425/08cd0747-3624-4251-9104-81e81adf48f3/eae6b64a-1254-40c1-9d35-378d66a4ac35"
       (reference "U314") (unit 1) (value "74HC32") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
-    (path "/108743f5-032b-46ed-a6db-6b8bf543e425/8aefe81b-2eae-443b-bd16-02e780dd209d/959fe837-547b-48b0-942e-bc4fc7c1cd59"
+    (path "/c7e691f1-3826-4fda-8caf-e0d6c99d6f96/01c25e20-c017-42c6-816f-77acc4afc8bc"
       (reference "U314") (unit 2) (value "74HC32") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
     (path "/108743f5-032b-46ed-a6db-6b8bf543e425/8aefe81b-2eae-443b-bd16-02e780dd209d/298d7bf2-0d81-4b5a-818b-5c94d187e099"

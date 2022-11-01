@@ -9,15 +9,12 @@ Even though the project begun back in July 2018, it's currently going through a 
 * v0.1.0  First production run. Only includes B0 (DDR and PORTs)
 * v0.1.0a First production run for B1. (TIMERA and CREGA)
 * v0.1.1  Second production run for B1. Fixes TASTART issue. First B2 (TIMERB and CREGB) 
+* v0.1.2  First production run for B3. (SDR and ICR)
 
 # Changelog
-## Pending
-* B3. Review and verify. Inverter for SDR input register missing?
-* B2. Changes to silkscreen (U229 type changed to HCT, U205 value added)
 
-## Unreleased
-* B3. First release. SDR schematic done
-* B3. Added ICR and layout
+## [0.1.2 ] - 11-01-2022 
+* B3. First release. SDR and ICR
 * B2. Updates for JLCPCB capabilities
 * All boards. Schematic review. Added /RES capacitor to prevent false restarts.
 
