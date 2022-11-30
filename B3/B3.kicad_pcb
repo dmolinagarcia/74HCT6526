@@ -366,7 +366,7 @@
       (net 15 "TBPULSE") (pintype "input") (tstamp a663698c-1431-4f26-a9da-9ee02709b987))
     (pad "14" smd roundrect (at 2.475 -3.81) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp 196f86d4-9362-4deb-ad2b-b25f501dd37a))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-14_3.9x8.65mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -435,7 +435,7 @@
       (net 159 "Net-(U337-Pad8)") (pintype "input") (tstamp 95d77f76-0adb-4fb4-8ac5-40af2e2f4abe))
     (pad "14" smd roundrect (at 2.475 -3.81) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp d13d10a6-9876-417c-a3ee-27d46cd91117))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-14_3.9x8.65mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -588,7 +588,7 @@
       (net 135 "/icr/icrControl/MASK1") (pintype "input") (tstamp f072646d-472c-4a2e-b0d0-c9c8ff316969))
     (pad "14" smd roundrect (at 2.475 -3.81) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp 37dafbc6-d6c6-4c9e-9208-e5140902317e))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-14_3.9x8.65mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -657,7 +657,7 @@
       (net 146 "/icr/icrControl/~{ICRCLR}") (pinfunction "~{R}") (pintype "input") (tstamp 5494ead6-ee72-45d9-9286-c0f631e9f1b3))
     (pad "14" smd roundrect (at 2.475 -3.81) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp d33f11c4-c653-4a62-9e28-66f5dd5bc7a2))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-14_3.9x8.65mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1080,7 +1080,7 @@
       (net 30 "GND") (pinfunction "S1") (pintype "input") (tstamp 3904cb81-6c29-411b-9a38-24ec00f1d00e))
     (pad "20" smd roundrect locked (at 4.65 -5.715) (size 2.05 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp c4ed1000-5550-44cb-b3bf-609b693eaf44))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1208,7 +1208,7 @@
       (net 112 "Net-(U306-Pad8)") (pinfunction "2OE") (pintype "input") (tstamp 77014146-0ef5-40b2-bdb3-7c7f2876ae0f))
     (pad "20" smd roundrect locked (at 4.65 -5.715) (size 2.05 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp 9ba89135-4f88-4db7-bd86-9861f1019bab))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1973,7 +1973,7 @@
       (net 146 "/icr/icrControl/~{ICRCLR}") (pinfunction "~{R}") (pintype "input") (tstamp ab145ab3-f460-41fa-9342-e7ccb574ddb9))
     (pad "14" smd roundrect (at 2.475 -3.81) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp 34150fee-7189-496f-b2c8-fa04b1e30ba4))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-14_3.9x8.65mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2153,7 +2153,7 @@
       (net 29 "VCC") (pinfunction "~{R}") (pintype "input") (tstamp ce3f5243-d465-4fcb-adf0-d098c0c773ab))
     (pad "14" smd roundrect (at 2.475 -3.81) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp 6c95e0ad-986a-4a97-9a2a-28686f9b18b5))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-14_3.9x8.65mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2239,7 +2239,7 @@
       (net 89 "/sdr/sdrController/~{SDRCOUNT}") (pinfunction "S1") (pintype "input") (tstamp 5617bd58-3f74-4eb0-ad5f-ded18b5e48db))
     (pad "20" smd roundrect locked (at 4.65 -5.715) (size 2.05 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp 288c4978-1f8f-45b9-a70f-4002ae4ba4f1))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2770,7 +2770,7 @@
       (net 144 "/icr/icrControl/~{OE13}") (pinfunction "2OE") (pintype "input") (tstamp 08e2a2da-52ac-47db-a049-1b4556a126be))
     (pad "20" smd roundrect (at 4.65 -5.715) (size 2.05 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp 59a5ad32-b82c-4028-bf3e-bd1dc5a8cd14))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3277,7 +3277,7 @@
       (net 134 "/icr/icrControl/MASK0") (pinfunction "Q7") (pintype "output") (tstamp 37b2d1cc-ffb6-49d6-80f2-f78329a6bfb6))
     (pad "20" smd roundrect (at 4.65 -5.715) (size 2.05 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp 39a68027-8b57-41ad-aa3e-df0e08ed697b))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3489,7 +3489,7 @@
       (net 96 "/sdr/sdrRegister/~{OE12}") (pinfunction "2OE") (pintype "input") (tstamp ca554a06-3d8b-48e4-882c-3f7b671f99ba))
     (pad "20" smd roundrect locked (at 4.65 -5.715) (size 2.05 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp cb8f4dd6-eace-4289-acc1-0d49d4c54d32))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3754,7 +3754,7 @@
       (net 134 "/icr/icrControl/MASK0") (pintype "input") (tstamp 23b99818-1e7f-4b51-b934-01d01ca3dce6))
     (pad "14" smd roundrect (at 2.475 -3.81) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp e89227d1-3e54-4068-9c42-ae194f82c029))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-14_3.9x8.65mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4008,7 +4008,7 @@
       (net 78 "/sdr/sdrOutput/OUTDATA6") (pinfunction "Q7") (pintype "output") (tstamp fdcc4413-38fc-476e-8e74-661f196a64b6))
     (pad "20" smd roundrect locked (at 4.65 -5.715) (size 2.05 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp 2e8cb22c-235e-47a2-8450-f87ba43c3adb))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4230,7 +4230,7 @@
       (net 16 "ENABLE_NAND") (pintype "input") (tstamp 613bc568-faae-4658-b346-cd2ef569281f))
     (pad "14" smd roundrect (at 2.475 -3.81) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp 54e02cde-7eed-4731-8f13-b98ff7a985b9))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-14_3.9x8.65mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4299,7 +4299,7 @@
       (net 181 "Net-(U324-Pad11)") (pintype "input") (tstamp af370c3b-9591-46e5-a10d-a1f3696715d9))
     (pad "14" smd roundrect (at 2.475 -3.81) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp b34d834f-22be-4c6b-a0d6-fb23c9c70f61))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-14_3.9x8.65mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4410,7 +4410,7 @@
       (net 146 "/icr/icrControl/~{ICRCLR}") (pinfunction "~{R}") (pintype "input") (tstamp 2b941df7-38f1-4595-9e28-964bf58ad60d))
     (pad "14" smd roundrect (at 2.475 -3.81) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp 30a499ad-fba3-4364-9bd6-65c0705cfc7a))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-14_3.9x8.65mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5029,7 +5029,7 @@
       (net 29 "VCC") (pinfunction "~{R}") (pintype "input") (tstamp b806a52c-2b7d-4060-8c8e-c6ec840f0602))
     (pad "14" smd roundrect (at 2.475 -3.81) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp 982c6397-463d-409a-9331-0aeb93210251))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-14_3.9x8.65mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5098,7 +5098,7 @@
       (net 16 "ENABLE_NAND") (pintype "input") (tstamp 7e272170-7a62-4254-8935-0f4034f120c4))
     (pad "14" smd roundrect (at 2.475 -3.81) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp ea73f089-44bf-4747-9aef-a6033f32a650))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-14_3.9x8.65mm_P1.27mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
