@@ -35,6 +35,7 @@ Even though the project begun back in July 2018, it's currently going through a 
 * B0 with DDRs, PORTs, and bus interface
 
 # Status updates
+* November 01, 2022. v0.1.2 released. Includes B3 (SDR+ICR) and some minor tweaks to all boards.
 * August 24, 2022. v0.1.1 released. Fixes a bug in B1 (TASTART) and adds B2. Minor routing fixes to all boards.
 * June 06, 2022. v0.1.0a released. It adds B1 to v0.1.0
 * October 19, 2021. v0.1.0 is released. It add B0 to v0.1.0
