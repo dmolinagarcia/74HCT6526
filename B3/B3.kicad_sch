@@ -6,8 +6,8 @@
 
   (title_block
     (title "74HCT6526 Board 3")
-    (date "2022-10-08")
-    (rev "0.1.2")
+    (date "2023-01-22")
+    (rev "0.2.0")
     (company "Daniel Molina")
     (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
   )
@@ -1368,6 +1368,18 @@
     (path "/6ac12df0-6226-4d30-947c-27d74eb345ea/75690eac-5e88-44d0-90e0-6b3ef565756f/123ad7db-c0aa-4245-857e-98514493bc9e"
       (reference "#PWR0359") (unit 1) (value "GND") (footprint "")
     )
+    (path "/108743f5-032b-46ed-a6db-6b8bf543e425/8aefe81b-2eae-443b-bd16-02e780dd209d/eb65421a-10a8-4d28-ab3c-550835931001"
+      (reference "#PWR0360") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/108743f5-032b-46ed-a6db-6b8bf543e425/8aefe81b-2eae-443b-bd16-02e780dd209d/1986a4e5-75ae-44a7-830a-96bffc57bf35"
+      (reference "#PWR0361") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/c7e691f1-3826-4fda-8caf-e0d6c99d6f96/b301a63a-3495-421f-90f3-10991533bb45"
+      (reference "#PWR0362") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/a512fa78-7ea1-40a6-bd2e-d62d1f66c73d/97ba3ce4-cff2-40fa-bd3d-a664d6ce034c"
+      (reference "C300") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
     (path "/c7e691f1-3826-4fda-8caf-e0d6c99d6f96/5e5b35b2-2cee-4f8a-a15f-d82163ba3fc5"
       (reference "C301") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -1485,7 +1497,7 @@
     (path "/c7e691f1-3826-4fda-8caf-e0d6c99d6f96/0d6ff1ae-2caf-4b31-9e43-f8725f34fdf9"
       (reference "C339") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/a512fa78-7ea1-40a6-bd2e-d62d1f66c73d/97ba3ce4-cff2-40fa-bd3d-a664d6ce034c"
+    (path "/c7e691f1-3826-4fda-8caf-e0d6c99d6f96/2a34ca2e-285c-4ce9-bbe1-40c745f9cdc4"
       (reference "C340") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/a512fa78-7ea1-40a6-bd2e-d62d1f66c73d/4cb2fad4-88a7-4b24-a682-b7083f1fbcca"
@@ -1925,6 +1937,15 @@
     )
     (path "/c7e691f1-3826-4fda-8caf-e0d6c99d6f96/b9cc53b3-81de-4af6-9497-3ab13760b7f6"
       (reference "U339") (unit 5) (value "74HC08") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
+    )
+    (path "/108743f5-032b-46ed-a6db-6b8bf543e425/8aefe81b-2eae-443b-bd16-02e780dd209d/01ad302d-b073-4e68-80f0-c0fed9cff952"
+      (reference "U340") (unit 1) (value "74HC74") (footprint "")
+    )
+    (path "/c7e691f1-3826-4fda-8caf-e0d6c99d6f96/b16bbc85-f770-4c1c-a8b3-054e4c7d08e6"
+      (reference "U340") (unit 2) (value "74HC74") (footprint "")
+    )
+    (path "/c7e691f1-3826-4fda-8caf-e0d6c99d6f96/c67f61b6-9b50-4165-8c29-940b4aa29a8e"
+      (reference "U340") (unit 3) (value "74HC74") (footprint "")
     )
   )
 )

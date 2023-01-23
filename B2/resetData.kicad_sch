@@ -6,8 +6,8 @@
 
   (title_block
     (title "74HCT6526 Board 2")
-    (date "2022-10-08")
-    (rev "0.1.2")
+    (date "2023-01-22")
+    (rev "0.2.0")
     (company "Daniel Molina")
     (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
   )

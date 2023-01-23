@@ -6,8 +6,8 @@
 
   (title_block
     (title "74HCT6526 Board 0")
-    (date "2022-10-08")
-    (rev "0.1.2")
+    (date "2023-01-22")
+    (rev "0.2.0")
     (company "Daniel Molina")
     (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
   )
@@ -1447,6 +1447,9 @@
     (path "/8d4bae2f-b118-40a6-8955-6b06f32615aa/16bf0e20-32b5-4c25-826f-341db7e5cbd4"
       (reference "#PWR0136") (unit 1) (value "GND") (footprint "")
     )
+    (path "/8ab4ca08-d71d-4254-8eb7-31fef72c2a95/182e5014-3833-462f-bbe2-3830e8c34674"
+      (reference "C000") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
     (path "/8d4bae2f-b118-40a6-8955-6b06f32615aa/8dc18107-a5d4-4003-8089-d2308d7f3142"
       (reference "C001") (unit 1) (value "C") (footprint "74hct6526.footprints:0603_SMD")
     )
@@ -1542,9 +1545,6 @@
     )
     (path "/8d4bae2f-b118-40a6-8955-6b06f32615aa/e69e7777-eb65-4772-aa44-52eec408ba35"
       (reference "C032") (unit 1) (value "C") (footprint "74hct6526.footprints:0603_SMD")
-    )
-    (path "/8ab4ca08-d71d-4254-8eb7-31fef72c2a95/182e5014-3833-462f-bbe2-3830e8c34674"
-      (reference "C033") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/8ab4ca08-d71d-4254-8eb7-31fef72c2a95/7f45c487-1782-49bd-9ad2-e522697f4099"
       (reference "CONTROLBUS0") (unit 1) (value "Conn_02x10_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical")

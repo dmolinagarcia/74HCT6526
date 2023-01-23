@@ -5,18 +5,42 @@ Even though the project begun back in July 2018, it's currently going through a 
 > ###### Important note
 > Please visit http://forum.6502.org/viewtopic.php?f=4&t=5593 for more information
 
+# Versioning
+74HCT6526 is releases under the following versioning scheme:
+
+MAJOR.MINOR.REVISION
+
+For a stack to work properly, is mandatory that all boards share the MAJOR.MINOR versión. Any change than renders a board incompatible with the previous releases triggers a new MINOR version. If a version only includes fixes, but does not alter the buses, it's only a new revision.
+
+Under the current scheme, I don't think I'll ever need a new MAJOR version, but it is nice to have it there, just in case.
+
+# Manufacturing
+All boards are tested against JLCPCB and PCBWAY capabilities. For PCBWAY, there is no increase in cost compared to the standard 4 layer board.
+
 # Releases
 * v0.1.0  First production run. Only includes B0 (DDR and PORTs)
 * v0.1.0a First production run for B1. (TIMERA and CREGA)
 * v0.1.1  Second production run for B1. Fixes TASTART issue. First B2 (TIMERB and CREGB) 
 * v0.1.2  First production run for B3. (SDR and ICR)
+* v0.2.0  First MINOR advance. B0+B1+B2+B3 tested and validated. 
 
 # Changelog
+
+## Unreleased
+
+## [0.2.0 ] - xx-xx-xxxx
+* All boards. Removed TARUNMODE from the ControlBus
+* All boards. Updated for JLCPCB and PCBWAY capabilities
+* All boards. Minor aesthetic changes to schematics
+* B1. Optimized CNT edge detector
+* B2. Optimized CNT edge detector
+* B3. Fixed FLAG edge detector
+* B3. Fixed SDR input and output issues from v0.1.2
 
 ## [0.1.2 ] - 11-01-2022 
 * B3. First release. SDR and ICR
 * B2. Updates for JLCPCB capabilities
-* All boards. Schematic review. Added /RES capacitor to prevent false restarts.
+* All boards. Schematic review. Added /RES capacitor to prevent false restarts
 
 ## [0.1.1 ] - 08-24-2022 
 * B2. First release. 
