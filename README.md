@@ -1,12 +1,12 @@
 # 74HCT6526 
-The 74HCT6526 is a very amateur attempt at building a MOS6526 replica using discrete logic. This repo is publicly shared just for educational purposes, and I can offer no guarantee on the correct behaviour of this implementation.
-Even though the project begun back in July 2018, it's currently going through a full reboot. The older implementation is no longer public, and I'm sharing my new design even though it's being implemented right now. 
+The 74HCT6526 is a very amateur attempt at building a MOS6526 replica using discrete logic. This repo is publicly shared just for educational purposes, and I can offer no guarantee on the correct behaviour of this implementation. So far, it's working great for me, but I can't promise anything.
+
 
 > ###### Important note
 > Please visit http://forum.6502.org/viewtopic.php?f=4&t=5593 for more information
 
 # Versioning
-74HCT6526 is releases under the following versioning scheme:
+74HCT6526 is released under the following versioning scheme:
 
 MAJOR.MINOR.REVISION
 
@@ -35,7 +35,7 @@ All boards are tested against JLCPCB and PCBWAY capabilities. For PCBWAY, there 
 * B1. Optimized CNT edge detector
 * B2. Optimized CNT edge detector
 * B3. Fixed FLAG edge detector
-* B3. Fixed SDR input and output issues from v0.1.2
+* B3. Fixed SDR input and output issues from v0.1.2 (not sending nor receiving)
 
 ## [0.1.2 ] - 11-01-2022 
 * B3. First release. SDR and ICR
