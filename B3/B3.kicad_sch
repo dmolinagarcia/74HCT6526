@@ -1939,13 +1939,13 @@
       (reference "U339") (unit 5) (value "74HC08") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
     (path "/108743f5-032b-46ed-a6db-6b8bf543e425/8aefe81b-2eae-443b-bd16-02e780dd209d/01ad302d-b073-4e68-80f0-c0fed9cff952"
-      (reference "U340") (unit 1) (value "74HC74") (footprint "")
+      (reference "U340") (unit 1) (value "74HC74") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
     (path "/c7e691f1-3826-4fda-8caf-e0d6c99d6f96/b16bbc85-f770-4c1c-a8b3-054e4c7d08e6"
-      (reference "U340") (unit 2) (value "74HC74") (footprint "")
+      (reference "U340") (unit 2) (value "74HC74") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
     (path "/c7e691f1-3826-4fda-8caf-e0d6c99d6f96/c67f61b6-9b50-4165-8c29-940b4aa29a8e"
-      (reference "U340") (unit 3) (value "74HC74") (footprint "")
+      (reference "U340") (unit 3) (value "74HC74") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
   )
 )

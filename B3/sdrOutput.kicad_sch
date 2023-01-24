@@ -1348,7 +1348,6 @@
     )
   )
 
-
   (junction (at 175.26 22.86) (diameter 0) (color 0 0 0 0)
     (uuid 06bdb3e7-04cb-4341-beb5-bf903395c147)
   )
@@ -1935,7 +1934,7 @@
     (property "Value" "74HC74" (id 1) (at 79.4894 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 77.47 39.37 0)
+    (property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm" (id 2) (at 77.47 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "74xx/74hc_hct74.pdf" (id 3) (at 77.47 39.37 0)
