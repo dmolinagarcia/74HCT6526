@@ -60,6 +60,7 @@ All boards are tested against JLCPCB and PCBWAY capabilities. For PCBWAY, there 
 * B0 with DDRs, PORTs, and bus interface
 
 # Status updates
+* January 24, 2023. v0.2.0 released. Fixes a potential problem on B1 and B2 with CNT edge detector. It also fixes some bugs on B3. A cleanup of schematic, PCBs and PDFs for all boards has been done. TARUNMODE is removed from controlbus as it is not needed. This triggers a new MINOR version
 * November 01, 2022. v0.1.2 released. Includes B3 (SDR+ICR) and some minor tweaks to all boards.
 * August 24, 2022. v0.1.1 released. Fixes a bug in B1 (TASTART) and adds B2. Minor routing fixes to all boards.
 * June 06, 2022. v0.1.0a released. It adds B1 to v0.1.0
