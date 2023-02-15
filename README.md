@@ -28,6 +28,9 @@ All boards are tested against JLCPCB and PCBWAY capabilities. For PCBWAY, there 
 
 # Changelog
 
+## Unreleased
+* Addec pdfs for all schematic and pcbs for all versions for ease of access.
+
 ## [0.2.0 ] - 24-Jan-2023
 * All boards. Removed TARUNMODE from the ControlBus
 * All boards. Updated for JLCPCB and PCBWAY capabilities
