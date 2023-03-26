@@ -6,8 +6,8 @@
 
   (title_block
     (title "74HCT6526 Board 0")
-    (date "2023-01-22")
-    (rev "0.2.0")
+    (date "2023-03-25")
+    (rev "0.2.1")
     (company "Daniel Molina")
     (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
   )
@@ -1565,10 +1565,10 @@
       (reference "R1") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/506dcf3a-1888-457a-bde7-98d8ccb85e5a/aa856cce-a0a0-4c36-9c03-4257111d935d"
-      (reference "RN1") (unit 1) (value "R_Network08") (footprint "Resistor_THT:R_Array_SIP9")
+      (reference "RN1") (unit 1) (value "3k") (footprint "Resistor_THT:R_Array_SIP9")
     )
     (path "/6b69d9a9-a1b3-4883-9897-b72666ce7b5e/61f852c0-64ee-437b-a713-c39291d4618e"
-      (reference "RN2") (unit 1) (value "R_Network08") (footprint "Resistor_THT:R_Array_SIP9")
+      (reference "RN2") (unit 1) (value "1k") (footprint "Resistor_THT:R_Array_SIP9")
     )
     (path "/8ea3bdc7-33ca-45a7-b81f-4aff9c8e5093/34927a1c-6af2-4acc-9299-53800315f2b4"
       (reference "U001") (unit 1) (value "74HCT00") (footprint "74hct6526.footprints:SO-14")

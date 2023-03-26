@@ -6,8 +6,8 @@
 
   (title_block
     (title "74HCT6526 Board 0")
-    (date "2023-01-22")
-    (rev "0.2.0")
+    (date "2023-03-25")
+    (rev "0.2.1")
     (company "Daniel Molina")
     (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
   )
@@ -4405,7 +4405,7 @@
     (in_bom yes) (on_board yes)
     (uuid aa856cce-a0a0-4c36-9c03-4257111d935d)
     (property "Reference" "RN1" (id 0) (at 232.41 23.7298 90))
-    (property "Value" "R_Network08" (id 1) (at 232.41 26.0285 90))
+    (property "Value" "3k" (id 1) (at 232.41 26.0285 90))
     (property "Footprint" "Resistor_THT:R_Array_SIP9" (id 2) (at 232.41 51.435 90)
       (effects (font (size 1.27 1.27)) hide)
     )

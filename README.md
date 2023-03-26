@@ -28,8 +28,11 @@ All boards are tested against JLCPCB and PCBWAY capabilities. For PCBWAY, there 
 
 # Changelog
 
-## Unreleased
-* Addec pdfs for all schematic and pcbs for all versions for ease of access.
+## [0.2.1 ] - 26-Mar-2023
+* All boards. Added pdfs for all schematic and pcbs for all versions for ease of access
+* B1. Changes to Reload portion of TimerA pipeline to fix 01cmpold issue
+* B2. Changes to Reload portion of TimerA pipeline to fix 01cmpold issue
+* B3. Added switch to select OLD or NEW CIA
 
 ## [0.2.0 ] - 24-Jan-2023
 * All boards. Removed TARUNMODE from the ControlBus

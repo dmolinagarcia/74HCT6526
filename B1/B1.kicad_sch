@@ -6,8 +6,8 @@
 
   (title_block
     (title "74HCT6526 Board 1")
-    (date "2023-01-22")
-    (rev "0.2.0")
+    (date "2023-03-25")
+    (rev "0.2.1")
     (company "Daniel Molina")
     (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
   )
@@ -1241,6 +1241,9 @@
     (path "/d71e373b-2126-4572-b605-db646e364722/29f91df0-258b-46d6-a9ca-d2a141135a2a"
       (reference "#PWR0171") (unit 1) (value "GND") (footprint "")
     )
+    (path "/6fb2cbba-12b5-496b-a736-e77b240a15fe/b8b5028c-9f5f-4c50-8cf3-358a4be12288"
+      (reference "#PWR0172") (unit 1) (value "VCC") (footprint "")
+    )
     (path "/d71e373b-2126-4572-b605-db646e364722/f601c79d-0a90-4f06-932e-aa5468725aa3"
       (reference "C100") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -1327,6 +1330,9 @@
     )
     (path "/c09c7409-d5b2-4c4f-a820-cde0cb763f7f/345184b2-61db-45f0-a821-254c0920249b"
       (reference "C128") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/c09c7409-d5b2-4c4f-a820-cde0cb763f7f/59f4aa9d-65cb-4455-b350-9beaf702b7be"
+      (reference "C129") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/d71e373b-2126-4572-b605-db646e364722/25a0a619-bd2a-4e5a-afc1-97e231f72e29"
       (reference "CONTROLBUS1") (unit 1) (value "Conn_02x10_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical")
@@ -1475,7 +1481,7 @@
     (path "/6fb2cbba-12b5-496b-a736-e77b240a15fe/68293acc-57ea-47d7-a92d-98b917565642"
       (reference "U119") (unit 1) (value "74HC74") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
-    (path "/6fb2cbba-12b5-496b-a736-e77b240a15fe/0789e2df-2ff3-4fdf-af46-99f2215f2ad7"
+    (path "/c09c7409-d5b2-4c4f-a820-cde0cb763f7f/053fc8aa-c74e-486f-aa51-cab7747281ea"
       (reference "U119") (unit 2) (value "74HC74") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
     (path "/c09c7409-d5b2-4c4f-a820-cde0cb763f7f/73ce32d4-6336-4046-8416-2ed41accb7ad"
@@ -1561,6 +1567,15 @@
     )
     (path "/7b204870-5d79-4126-8397-05c615b11ad5/d6addc6a-d11d-449c-adc7-1726fcd71275"
       (reference "U128") (unit 1) (value "74HC377") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
+    )
+    (path "/6fb2cbba-12b5-496b-a736-e77b240a15fe/76d0751b-0993-4f43-8735-2abd45364534"
+      (reference "U129") (unit 1) (value "74HC74") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
+    )
+    (path "/6fb2cbba-12b5-496b-a736-e77b240a15fe/35d21f5e-9c2e-489d-8f2a-ae482ee5ce82"
+      (reference "U129") (unit 2) (value "74HC74") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
+    )
+    (path "/c09c7409-d5b2-4c4f-a820-cde0cb763f7f/2fcb4b11-3602-46a8-b598-8a890a74826b"
+      (reference "U129") (unit 3) (value "74HC74") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
   )
 )

@@ -6,8 +6,8 @@
 
   (title_block
     (title "74HCT6526 Board 1")
-    (date "2023-01-22")
-    (rev "0.2.0")
+    (date "2023-03-25")
+    (rev "0.2.1")
     (company "Daniel Molina")
     (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
   )
@@ -1788,7 +1788,6 @@
       )
     )
   )
-
 
   (junction (at 200.66 39.37) (diameter 0) (color 0 0 0 0)
     (uuid 0db076c1-f65e-4854-855d-7daac5a738b9)

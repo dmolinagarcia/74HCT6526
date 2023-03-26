@@ -1,0 +1,23 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid d5cf9552-9af3-4e20-a35c-4b646a92e7d5)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "TODBUS[31..0]" (shape input) (at 66.04 48.26 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 26a64778-ee4b-4b50-944d-568ef6800980)
+  )
+  (hierarchical_label "ALARM[31..0]" (shape input) (at 66.04 43.18 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 97ced4be-dbab-4a3a-bc1f-35575111fb16)
+  )
+  (hierarchical_label "TODIRQ" (shape output) (at 66.04 53.34 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 9976014c-4eac-417f-ad4b-8d844ac1c8ef)
+  )
+)

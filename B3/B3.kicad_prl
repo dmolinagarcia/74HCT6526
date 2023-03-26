@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 37,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [
@@ -80,7 +80,7 @@
       36
     ],
     "visible_layers": "ffdffff_fffffffd",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "B3.kicad_prl",

@@ -57,7 +57,7 @@
       ],
       "drc_exclusions": [],
       "meta": {
-        "version": 1
+        "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
@@ -66,9 +66,10 @@
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_too_small": "error",
+        "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -76,7 +77,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "malformed_courtyard": "error",
-        "microvia_drill_too_small": "error",
+        "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
@@ -87,6 +88,7 @@
         "silk_over_copper": "error",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -112,10 +114,7 @@
         "min_track_width": 0.127,
         "min_via_annular_width": 0.19999999999999998,
         "min_via_diameter": 0.19999999999999998,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
-        "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": -0.0
+        "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0
@@ -406,7 +405,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 400,
     "drawing": {
       "default_bus_thickness": 12.0,
       "default_junction_size": 40.0,
@@ -454,6 +453,26 @@
     [
       "ab70af84-b545-4f99-8702-a579edb051a6",
       "buses"
+    ],
+    [
+      "e938668e-b9c7-4922-ac5f-e252969c0394",
+      "todAlarm"
+    ],
+    [
+      "00004aa6-f38f-4349-860d-c2ea24b8aa95",
+      "todComparator"
+    ],
+    [
+      "b83c3493-9412-4c4a-ab24-a97f042c937c",
+      "todCounter"
+    ],
+    [
+      "5a5941fa-825f-45ea-a1e2-f320974a6510",
+      "todOutput"
+    ],
+    [
+      "a97529d8-e2ef-4900-b9fe-3c03746537d1",
+      "todControl"
     ]
   ],
   "text_variables": {}
