@@ -1,6 +1,9 @@
 # 74HCT6526 
 The 74HCT6526 is a very amateur attempt at building a MOS6526 replica using discrete logic. This repo is publicly shared just for educational purposes, and I can offer no guarantee on the correct behaviour of this implementation. So far, it's working great for me, but I can't promise anything.
 
+# Current Status
+As of v0.2.1, the 74HCT6526 is extremely cycle accurate when compared to a real 6526. Some VICE test still fail on edge cases, but it has been tested against multiple games with very satisfactory results. 
+
 # History
 Work on the 74HCT6526 began in the summer of 2018. I was so impressed by other attempts at replicating Commodore chips, that I wanted to give it myself a try. I chose the CIA, as it wasn't replicated back then, even though it seemed the simplest chip. I had no previous knowledge in electronics, only some lessons back in college more than 20 years ago.
 
@@ -25,6 +28,7 @@ All boards are tested against JLCPCB and PCBWAY capabilities. For PCBWAY, there 
 * v0.1.1  Second production run for B1. Fixes TASTART issue. First B2 (TIMERB and CREGB) 
 * v0.1.2  First production run for B3. (SDR and ICR)
 * v0.2.0  First MINOR advance. B0+B1+B2+B3 tested and validated. 
+* v0.2.1  Fixes for Reload under Underflow issue. 
 
 # Changelog
 
@@ -66,9 +70,10 @@ All boards are tested against JLCPCB and PCBWAY capabilities. For PCBWAY, there 
 * B0 with DDRs, PORTs, and bus interface
 
 # Status updates
+* March 26, 2023. v0.2.1 released. Fixes a missing IRQ issue on reload while underflowing. It also adds a selector for OLD vs NEW cia in ICR
 * January 24, 2023. v0.2.0 released. Fixes a potential problem on B1 and B2 with CNT edge detector. It also fixes some bugs on B3. A cleanup of schematic, PCBs and PDFs for all boards has been done. TARUNMODE is removed from controlbus as it is not needed. This triggers a new MINOR version
-* November 01, 2022. v0.1.2 released. Includes B3 (SDR+ICR) and some minor tweaks to all boards.
-* August 24, 2022. v0.1.1 released. Fixes a bug in B1 (TASTART) and adds B2. Minor routing fixes to all boards.
+* November 01, 2022. v0.1.2 released. Includes B3 (SDR+ICR) and some minor tweaks to all boards
+* August 24, 2022. v0.1.1 released. Fixes a bug in B1 (TASTART) and adds B2. Minor routing fixes to all boards
 * June 06, 2022. v0.1.0a released. It adds B1 to v0.1.0
 * October 19, 2021. v0.1.0 is released. It add B0 to v0.1.0
 * September 12th, 2021. Repository is now public. B0 schematic is 100% done. PCB layout is 100% done. It's currently being reviewed before sending it into production
