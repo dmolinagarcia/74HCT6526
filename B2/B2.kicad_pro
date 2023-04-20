@@ -518,6 +518,14 @@
     [
       "3a40b38f-c487-4672-a3e3-25dc88bb9205",
       "timerbMux"
+    ],
+    [
+      "a9549786-b7f0-4805-81f4-e85df5447ec2",
+      "timerbOutput"
+    ],
+    [
+      "0a1687ec-b5ca-43fd-a6a4-da1d860dcdf8",
+      "timerbPipeline"
     ]
   ],
   "text_variables": {}

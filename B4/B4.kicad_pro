@@ -135,7 +135,13 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_not_connected|774700|660400|9c09eaff-3c83-403b-9a32-19f4eb287a66|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|1828800|431800|7bd63b32-523e-4a73-b9f4-1d568e5443c6|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|1828800|838200|ccacd078-fdf8-44d0-a9d2-5176b10adad9|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|546100|914400|7237cf5f-b01c-443d-8acc-d2dcd9df9c57|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|774700|660400|9c09eaff-3c83-403b-9a32-19f4eb287a66|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -368,6 +374,92 @@
       },
       {
         "bus_width": 6.0,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "ALARM",
+        "nets": [
+          "/todAlarm/ALARM0",
+          "/todAlarm/ALARM1",
+          "/todAlarm/ALARM10",
+          "/todAlarm/ALARM11",
+          "/todAlarm/ALARM12",
+          "/todAlarm/ALARM13",
+          "/todAlarm/ALARM14",
+          "/todAlarm/ALARM15",
+          "/todAlarm/ALARM16",
+          "/todAlarm/ALARM17",
+          "/todAlarm/ALARM18",
+          "/todAlarm/ALARM19",
+          "/todAlarm/ALARM2",
+          "/todAlarm/ALARM20",
+          "/todAlarm/ALARM21",
+          "/todAlarm/ALARM22",
+          "/todAlarm/ALARM23",
+          "/todAlarm/ALARM24",
+          "/todAlarm/ALARM25",
+          "/todAlarm/ALARM26",
+          "/todAlarm/ALARM27",
+          "/todAlarm/ALARM28",
+          "/todAlarm/ALARM29",
+          "/todAlarm/ALARM3",
+          "/todAlarm/ALARM30",
+          "/todAlarm/ALARM31",
+          "/todAlarm/ALARM4",
+          "/todAlarm/ALARM5",
+          "/todAlarm/ALARM6",
+          "/todAlarm/ALARM7",
+          "/todAlarm/ALARM8",
+          "/todAlarm/ALARM9"
+        ],
+        "pcb_color": "rgb(33, 0, 255)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 6.0,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Data",
+        "nets": [
+          "D0",
+          "D1",
+          "D2",
+          "D3",
+          "D4",
+          "D5",
+          "D6",
+          "D7",
+          "DZ0",
+          "DZ1",
+          "DZ2",
+          "DZ3",
+          "DZ4",
+          "DZ5",
+          "DZ6",
+          "DZ7"
+        ],
+        "pcb_color": "rgb(255, 255, 4)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 6.0,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -380,11 +472,54 @@
           "GND",
           "VCC"
         ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 13)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.8,
         "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 6.0,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "TOD",
+        "nets": [
+          "/todComparator/TODBUS10",
+          "/todComparator/TODBUS11",
+          "/todComparator/TODBUS12",
+          "/todComparator/TODBUS13",
+          "/todComparator/TODBUS14",
+          "/todComparator/TODBUS16",
+          "/todComparator/TODBUS17",
+          "/todComparator/TODBUS18",
+          "/todComparator/TODBUS19",
+          "/todComparator/TODBUS20",
+          "/todComparator/TODBUS21",
+          "/todComparator/TODBUS22",
+          "/todComparator/TODBUS24",
+          "/todComparator/TODBUS25",
+          "/todComparator/TODBUS26",
+          "/todComparator/TODBUS27",
+          "/todComparator/TODBUS28",
+          "/todComparator/TODBUS31",
+          "/todComparator/TODBUS4",
+          "/todComparator/TODBUS5",
+          "/todComparator/TODBUS6",
+          "/todComparator/TODBUS7",
+          "/todComparator/TODBUS8",
+          "/todComparator/TODBUS9"
+        ],
+        "pcb_color": "rgb(5, 255, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6.0
       }
     ],
@@ -473,6 +608,26 @@
     [
       "a97529d8-e2ef-4900-b9fe-3c03746537d1",
       "todControl"
+    ],
+    [
+      "87133201-5a55-41c8-bf97-20ed77f07c93",
+      "todTenths"
+    ],
+    [
+      "273079f5-8885-42a0-9364-10d432f7867a",
+      "todSeconds"
+    ],
+    [
+      "344bf033-58cf-4fc1-b80f-4af136fe825f",
+      "todMinutes"
+    ],
+    [
+      "911dda08-3f6a-4467-8b5a-8d9f809daff8",
+      "todHours"
+    ],
+    [
+      "e5583752-9d7d-404b-8d09-9d1457a6d639",
+      "todPower"
     ]
   ],
   "text_variables": {}
