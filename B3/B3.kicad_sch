@@ -1509,15 +1509,6 @@
     (path "/a512fa78-7ea1-40a6-bd2e-d62d1f66c73d/2b16640b-5bfa-4780-bd17-cd98641e3ba2"
       (reference "ENABLEBUS3") (unit 1) (value "Conn_02x10_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical")
     )
-    (path "/6ac12df0-6226-4d30-947c-27d74eb345ea/de5d14ee-70d2-45ec-9f9c-f4568d1a6c84/d216b373-a8ab-465b-b642-6e78cc0e0576"
-      (reference "SW301") (unit 1) (value "SW_SPDT") (footprint "Button_Switch_SMD:SW_SPDT_PCM12")
-    )
-    (path "/6ac12df0-6226-4d30-947c-27d74eb345ea/de5d14ee-70d2-45ec-9f9c-f4568d1a6c84/6af55d9c-6164-459a-be89-c8a0f7308f29"
-      (reference "SW302") (unit 1) (value "SW_DPDT_x2") (footprint "Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN")
-    )
-    (path "/6ac12df0-6226-4d30-947c-27d74eb345ea/de5d14ee-70d2-45ec-9f9c-f4568d1a6c84/93b9218d-4362-46c9-bada-c72211dd2454"
-      (reference "SW302") (unit 2) (value "SW_DPDT_x2") (footprint "Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN")
-    )
     (path "/108743f5-032b-46ed-a6db-6b8bf543e425/19d721ab-3834-4525-89b4-bdad6f6db2b8/bed0f502-e459-432a-84cb-b6b1e5795d45"
       (reference "U301") (unit 1) (value "74HC00") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
