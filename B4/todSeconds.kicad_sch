@@ -612,9 +612,9 @@
 
   (no_connect (at 119.38 114.3) (uuid 864a3407-c8c2-46e0-8733-0087b40c0047))
   (no_connect (at 119.38 124.46) (uuid ae514698-c325-4acd-8b82-f2c5a288d3c4))
-  (no_connect (at 119.38 119.38) (uuid ae514698-c325-4acd-8b82-f2c5a288d3c4))
-  (no_connect (at 119.38 59.69) (uuid ae514698-c325-4acd-8b82-f2c5a288d3c4))
-  (no_connect (at 119.38 54.61) (uuid ae514698-c325-4acd-8b82-f2c5a288d3c4))
+  (no_connect (at 119.38 119.38) (uuid ae514698-c325-4acd-8b82-f2c5a288d3c5))
+  (no_connect (at 119.38 59.69) (uuid ae514698-c325-4acd-8b82-f2c5a288d3c6))
+  (no_connect (at 119.38 54.61) (uuid ae514698-c325-4acd-8b82-f2c5a288d3c7))
 
   (bus_entry (at 86.36 106.68) (size 2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -953,7 +953,7 @@
     (uuid f18890fc-d176-4663-950a-ab31280fd1f3)
   )
 
-  (symbol (lib_id "Custom 74xx:74HC08") (at 177.8 144.78 0) (unit 2)
+  (symbol (lib_id "Custom 74xx:74HC08") (at 177.8 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0dfdcedb-76fb-4535-8520-a7ad7443aba2)
     (property "Reference" "U418" (id 0) (at 177.8 135.89 0))
@@ -1126,7 +1126,7 @@
     (pin "9" (uuid 449d5def-c8fb-41c3-9a9e-afda470a175d))
   )
 
-  (symbol (lib_id "Custom 74xx:74HC08") (at 177.8 77.47 0) (unit 1)
+  (symbol (lib_id "Custom 74xx:74HC08") (at 177.8 77.47 0) (mirror x) (unit 4)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cf360ed0-3a2f-44b9-ad22-521731d405aa)
     (property "Reference" "U418" (id 0) (at 177.8 68.58 0))
@@ -1134,7 +1134,7 @@
     (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (id 2) (at 177.8 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 177.8 71.12 0)
+    (property "Datasheet" "" (id 3) (at 177.8 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b51b5275-5b5c-41d5-a86c-0fc81d924cf0))

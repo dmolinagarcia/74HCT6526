@@ -1,0 +1,8 @@
+abrimos el retrodebugger
+load 02olcdias.prg
+reset
+
+poke 2077,5		; Start en test 5
+sys 2061
+
+breakpoint 096b		right after delay

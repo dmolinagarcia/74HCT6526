@@ -1332,7 +1332,7 @@
   (symbol (lib_id "Device:C") (at 246.38 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 989f85db-f560-481a-baba-d8c4193b2250)
-    (property "Reference" "C401" (id 0) (at 250.19 93.9799 0)
+    (property "Reference" "C400" (id 0) (at 250.19 93.9799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (id 1) (at 250.19 96.5199 0)

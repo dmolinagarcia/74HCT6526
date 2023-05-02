@@ -1023,7 +1023,7 @@
     (uuid e4cae781-1bb8-4286-9567-79d9c2babc91)
   )
 
-  (symbol (lib_id "Custom 74xx:74HC08") (at 109.22 26.67 0) (unit 1)
+  (symbol (lib_id "Custom 74xx:74HC08") (at 109.22 26.67 0) (unit 3)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 423d274d-1159-4f8e-bf0d-d9fd3c89898e)
     (property "Reference" "U411" (id 0) (at 109.22 17.78 0))

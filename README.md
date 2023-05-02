@@ -35,7 +35,7 @@ All boards are tested against JLCPCB and PCBWAY capabilities. For PCBWAY, there 
 * B1. Split TIMER into modules for improved readability.
 * B2. Split TIMER into modules for improved readability.
 * B3. Fixed ICR clearing issue. (PENDING)
-* B4. Added TOD board. SCH completed. PCB Pending.
+* B4. Added TOD PCB and SCH
 
 ## [0.2.1 ] - 26-Mar-2023
 * All boards. Added pdfs for all schematic and pcbs for all versions for ease of access

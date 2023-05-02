@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.9,
-          "height": 3.4,
-          "width": 3.4
+          "drill": 3.200001,
+          "height": 5.599999,
+          "width": 5.599999
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -85,8 +85,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "error",
-        "silk_overlap": "error",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -107,22 +107,29 @@
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.5,
-        "min_microvia_diameter": 0.44999999999999996,
-        "min_microvia_drill": 0.19999999999999998,
+        "min_microvia_diameter": 0.5599999999999999,
+        "min_microvia_drill": 0.25,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.19999999999999998,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.127,
-        "min_via_annular_width": 0.19999999999999998,
-        "min_via_diameter": 0.19999999999999998,
+        "min_via_annular_width": 0.13,
+        "min_via_diameter": 0.57,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.127,
+        0.5,
+        1.016
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.56,
+          "drill": 0.25
         }
       ],
       "zones_allow_external_fillets": false,
@@ -135,13 +142,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_not_connected|774700|660400|9c09eaff-3c83-403b-9a32-19f4eb287a66|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|1828800|431800|7bd63b32-523e-4a73-b9f4-1d568e5443c6|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|1828800|838200|ccacd078-fdf8-44d0-a9d2-5176b10adad9|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|546100|914400|7237cf5f-b01c-443d-8acc-d2dcd9df9c57|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|774700|660400|9c09eaff-3c83-403b-9a32-19f4eb287a66|00000000-0000-0000-0000-000000000000"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -368,8 +369,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
+        "via_diameter": 0.58,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
@@ -381,33 +382,25 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "ALARM",
+        "name": "AlarmBus",
         "nets": [
-          "/todAlarm/ALARM0",
-          "/todAlarm/ALARM1",
           "/todAlarm/ALARM10",
           "/todAlarm/ALARM11",
           "/todAlarm/ALARM12",
           "/todAlarm/ALARM13",
           "/todAlarm/ALARM14",
-          "/todAlarm/ALARM15",
           "/todAlarm/ALARM16",
           "/todAlarm/ALARM17",
           "/todAlarm/ALARM18",
           "/todAlarm/ALARM19",
-          "/todAlarm/ALARM2",
           "/todAlarm/ALARM20",
           "/todAlarm/ALARM21",
           "/todAlarm/ALARM22",
-          "/todAlarm/ALARM23",
           "/todAlarm/ALARM24",
           "/todAlarm/ALARM25",
           "/todAlarm/ALARM26",
           "/todAlarm/ALARM27",
           "/todAlarm/ALARM28",
-          "/todAlarm/ALARM29",
-          "/todAlarm/ALARM3",
-          "/todAlarm/ALARM30",
           "/todAlarm/ALARM31",
           "/todAlarm/ALARM4",
           "/todAlarm/ALARM5",
@@ -416,11 +409,11 @@
           "/todAlarm/ALARM8",
           "/todAlarm/ALARM9"
         ],
-        "pcb_color": "rgb(33, 0, 255)",
+        "pcb_color": "rgb(110, 255, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
+        "via_diameter": 0.58,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
@@ -432,7 +425,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Data",
+        "name": "DataBus",
         "nets": [
           "D0",
           "D1",
@@ -451,16 +444,16 @@
           "DZ6",
           "DZ7"
         ],
-        "pcb_color": "rgb(255, 255, 4)",
+        "pcb_color": "rgb(255, 253, 8)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
+        "via_diameter": 0.58,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
         "bus_width": 6.0,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -474,9 +467,9 @@
         ],
         "pcb_color": "rgb(255, 0, 13)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.254,
+        "via_diameter": 0.58,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
@@ -488,7 +481,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "TOD",
+        "name": "TodBus",
         "nets": [
           "/todComparator/TODBUS10",
           "/todComparator/TODBUS11",
@@ -513,13 +506,16 @@
           "/todComparator/TODBUS6",
           "/todComparator/TODBUS7",
           "/todComparator/TODBUS8",
-          "/todComparator/TODBUS9"
+          "/todComparator/TODBUS9",
+          "/todCounter/todTenths/TODBUS0",
+          "/todCounter/todTenths/TODBUS1",
+          "/todCounter/todTenths/TODBUS2"
         ],
-        "pcb_color": "rgb(5, 255, 0)",
+        "pcb_color": "rgb(0, 249, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
+        "via_diameter": 0.58,
+        "via_drill": 0.3,
         "wire_width": 6.0
       }
     ],
@@ -533,7 +529,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "B4.dsn",
       "step": "",
       "vrml": ""
     },
