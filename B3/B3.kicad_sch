@@ -410,8 +410,8 @@
   )
 
   (bus_alias "ENABLEBUS" (members "~{EN[0..15]}"))
-  (bus_alias "DATABUS" (members "D[0..7]" "DZ[0..7]"))
   (bus_alias "CONTROLBUS" (members "TASTART" "CNT" "SP" "PHI2" "~{FLAG}" "TOD" "TAPULSE" "TBPULSE" "TODIRQ" "~{IRQ}" "PB6ON" "PB7ON" "TAOUT" "TBOUT" "SPMODE" "TODIN" "ALARM" "ENABLE_NAND" "TARUNMODE" "~{RES}"))
+  (bus_alias "DATABUS" (members "D[0..7]" "DZ[0..7]"))
   (junction (at 83.82 33.02) (diameter 0) (color 0 0 0 0)
     (uuid 0255ec1e-2cd3-4622-815f-49832ac48cf7)
   )
@@ -1946,6 +1946,24 @@
     )
     (path "/c7e691f1-3826-4fda-8caf-e0d6c99d6f96/c67f61b6-9b50-4165-8c29-940b4aa29a8e"
       (reference "U340") (unit 3) (value "74HC74") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
+    )
+    (path "/6ac12df0-6226-4d30-947c-27d74eb345ea/de5d14ee-70d2-45ec-9f9c-f4568d1a6c84/c511034f-d6a8-49d9-9762-ed27ec49286d"
+      (reference "U341") (unit 1) (value "74HC157") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
+    )
+    (path "/6ac12df0-6226-4d30-947c-27d74eb345ea/de5d14ee-70d2-45ec-9f9c-f4568d1a6c84/43f8cc7d-d45a-4155-a097-d98f29ff179c"
+      (reference "U341") (unit 2) (value "74HC157") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
+    )
+    (path "/6ac12df0-6226-4d30-947c-27d74eb345ea/de5d14ee-70d2-45ec-9f9c-f4568d1a6c84/af337ed3-db37-4077-a493-4c4c0c39fbe1"
+      (reference "U341") (unit 3) (value "74HC157") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
+    )
+    (path "/6ac12df0-6226-4d30-947c-27d74eb345ea/de5d14ee-70d2-45ec-9f9c-f4568d1a6c84/c05e0b2d-6288-4393-8dc3-ae339e861279"
+      (reference "U341") (unit 4) (value "74HC157") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
+    )
+    (path "/6ac12df0-6226-4d30-947c-27d74eb345ea/de5d14ee-70d2-45ec-9f9c-f4568d1a6c84/93342975-0399-447f-b3ab-2289ccafca94"
+      (reference "U341") (unit 5) (value "74HC157") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
+    )
+    (path "/6ac12df0-6226-4d30-947c-27d74eb345ea/de5d14ee-70d2-45ec-9f9c-f4568d1a6c84/cf571225-b2cc-46f2-bed6-0699799ef68e"
+      (reference "U341") (unit 6) (value "74HC157") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
     )
   )
 )
