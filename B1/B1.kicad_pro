@@ -514,6 +514,14 @@
     [
       "c09c7409-d5b2-4c4f-a820-cde0cb763f7f",
       "power"
+    ],
+    [
+      "5a702f47-7afc-48c9-80f3-5664a9593814",
+      "timeraOutput"
+    ],
+    [
+      "cbc34232-7338-4ca5-98e2-42b5ec931fb0",
+      "timeraPipeline"
     ]
   ],
   "text_variables": {}

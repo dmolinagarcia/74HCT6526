@@ -1424,19 +1424,19 @@
       (reference "U410") (unit 1) (value "74HC377") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
     )
     (path "/e5583752-9d7d-404b-8d09-9d1457a6d639/808c169f-13e2-44c8-9a78-2e08e915e314"
-      (reference "U411") (unit 1) (value "74HC08") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U411") (unit 1) (value "74HCT08") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/e5583752-9d7d-404b-8d09-9d1457a6d639/1c86388e-531b-4e0b-acd2-d2c55aa4590a"
-      (reference "U411") (unit 2) (value "74HC08") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U411") (unit 2) (value "74HCT08") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/b83c3493-9412-4c4a-ab24-a97f042c937c/423d274d-1159-4f8e-bf0d-d9fd3c89898e"
-      (reference "U411") (unit 3) (value "74HC08") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U411") (unit 3) (value "74HCT08") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/e5583752-9d7d-404b-8d09-9d1457a6d639/61468854-52c4-45bc-8de3-bc7867256055"
-      (reference "U411") (unit 4) (value "74HC08") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U411") (unit 4) (value "74HCT08") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/e5583752-9d7d-404b-8d09-9d1457a6d639/47547110-3dbe-42a5-b365-1791d4517a66"
-      (reference "U411") (unit 5) (value "74HC08") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U411") (unit 5) (value "74HCT08") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/b83c3493-9412-4c4a-ab24-a97f042c937c/87133201-5a55-41c8-bf97-20ed77f07c93/cf5ead28-5beb-454c-8b61-1607660f43f4"
       (reference "U414") (unit 1) (value "74HC11") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")

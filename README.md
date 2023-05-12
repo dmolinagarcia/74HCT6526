@@ -32,11 +32,14 @@ All boards are tested against JLCPCB and PCBWAY capabilities. For PCBWAY, there 
 
 # Changelog
 ## [Unreleased]
-* B1. Split TIMER into modules for improved readability.
-* B2. Split TIMER into modules for improved readability.
+* B0. Some HCT parts are changed to HC
+* B1. Split TIMER into modules for improved readability
+* B2. Split TIMER into modules for improved readability
 * B3. ICR0 reset moved one cycle earlier (Issue #12)
-* B3. ICR1 switch to change between new and old added.
-* B3. IRQ switch to change between new and old added.
+* B3. ICR1 switch to change between new and old added
+* B3. IRQ switch to change between new and old added
+* B3. Master Switch for Mode Change (In progress)
+* B3. Some HC parts are changed to HCT
 * B4. Added TOD PCB and SCH
 
 ## [0.2.1 ] - 26-Mar-2023

@@ -1027,7 +1027,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 423d274d-1159-4f8e-bf0d-d9fd3c89898e)
     (property "Reference" "U411" (id 0) (at 109.22 17.78 0))
-    (property "Value" "74HC08" (id 1) (at 109.22 20.32 0))
+    (property "Value" "74HCT08" (id 1) (at 109.22 20.32 0))
     (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (id 2) (at 109.22 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
