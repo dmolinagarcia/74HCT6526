@@ -31,7 +31,7 @@ All boards are tested against JLCPCB and PCBWAY capabilities. For PCBWAY, there 
 * v0.2.1  Fixes for Reload under Underflow issue. 
 
 # Changelog
-## [Unreleased]
+## [Unreleased but commited]
 * B0. Some HCT parts are changed to HC
 * B1. Split TIMER into modules for improved readability
 * B2. Split TIMER into modules for improved readability
