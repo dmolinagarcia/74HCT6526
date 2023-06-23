@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "74HCT6526 Board 4")
+    (date "2023-06-22")
+    (rev "0.2.2")
+    (company "Daniel Molina")
+    (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
+  )
+
   (lib_symbols
     (symbol "Custom 74xx:74HC08" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 1.27 0)
@@ -1026,7 +1034,7 @@
   (symbol (lib_id "Custom 74xx:74HC08") (at 109.22 26.67 0) (unit 3)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 423d274d-1159-4f8e-bf0d-d9fd3c89898e)
-    (property "Reference" "U411" (id 0) (at 109.22 17.78 0))
+    (property "Reference" "U435" (id 0) (at 109.22 17.78 0))
     (property "Value" "74HCT08" (id 1) (at 109.22 20.32 0))
     (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (id 2) (at 109.22 26.67 0)
       (effects (font (size 1.27 1.27)) hide)

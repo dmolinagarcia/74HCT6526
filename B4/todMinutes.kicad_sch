@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "74HCT6526 Board 4")
+    (date "2023-06-22")
+    (rev "0.2.2")
+    (company "Daniel Molina")
+    (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
+  )
+
   (lib_symbols
     (symbol "74xx:74LS193" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 13.97 0)
@@ -974,7 +982,7 @@
   (symbol (lib_id "Custom 74xx:74HC08") (at 189.23 69.85 0) (unit 2)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0980c9a3-5e76-44d3-aace-609ce60462c7)
-    (property "Reference" "U418" (id 0) (at 189.23 60.96 0))
+    (property "Reference" "U407" (id 0) (at 189.23 60.96 0))
     (property "Value" "74HC08" (id 1) (at 189.23 63.5 0))
     (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (id 2) (at 189.23 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1001,7 +1009,7 @@
   (symbol (lib_id "74xx:74LS193") (at 118.11 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 22c50d9d-bf85-46ca-8ac6-b5f9148d7980)
-    (property "Reference" "U420" (id 0) (at 120.1294 91.44 0)
+    (property "Reference" "U414" (id 0) (at 120.1294 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC193" (id 1) (at 120.1294 93.98 0)
@@ -1034,7 +1042,7 @@
   (symbol (lib_id "74xx:74LS193") (at 118.11 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 26347f3c-e18e-4d7c-8f85-1136ce73eada)
-    (property "Reference" "U419" (id 0) (at 120.1294 26.67 0)
+    (property "Reference" "U415" (id 0) (at 120.1294 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC193" (id 1) (at 120.1294 29.21 0)
@@ -1067,7 +1075,7 @@
   (symbol (lib_id "Custom 74xx:74HC08") (at 189.23 137.16 0) (mirror x) (unit 3)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4fad195a-e2be-4302-ac8e-b4d715524bdb)
-    (property "Reference" "U418" (id 0) (at 189.23 128.27 0))
+    (property "Reference" "U407" (id 0) (at 189.23 128.27 0))
     (property "Value" "74HC08" (id 1) (at 189.23 130.81 0))
     (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (id 2) (at 189.23 137.16 0)
       (effects (font (size 1.27 1.27)) hide)

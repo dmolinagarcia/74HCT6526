@@ -1,8 +1,14 @@
+>
+> DISCLAIMER
+> Everything you see here is the result of the work of an amateur hobbyist. I had no knowledge in any required field for this project when I started, so I offer no guarantee that, if you replicate my work, you may end burning up you Commodore, your fingertips, or your whole house.
+> So far, no Commodore equipment (or fingertips, or whole house) have been permanently damaged in any way. But I can't promise to keep it that way.
+>
+
 # 74HCT6526 
 The 74HCT6526 is a very amateur attempt at building a MOS6526 replica using discrete logic. This repo is publicly shared just for educational purposes, and I can offer no guarantee on the correct behaviour of this implementation. So far, it's working great for me, but I can't promise anything.
 
 # Current Status
-As of v0.2.1, the 74HCT6526 is extremely cycle accurate when compared to a real 6526. Some VICE test still fail on edge cases, but it has been tested against multiple games with very satisfactory results. 
+As of v0.2.2, the 74HCT6526 is extremely cycle accurate when compared to a real 6526. Some VICE test still fail on edge cases, but it has been tested against multiple games with very satisfactory results. 
 
 # History
 Work on the 74HCT6526 began in the summer of 2018. I was so impressed by other attempts at replicating Commodore chips, that I wanted to give it myself a try. I chose the CIA, as it wasn't replicated back then, even though it seemed the simplest chip. I had no previous knowledge in electronics, only some lessons back in college more than 20 years ago.
@@ -19,6 +25,13 @@ For a stack to work properly, is mandatory that all boards share the same MAJOR.
 
 Under the current scheme, I don't think I'll ever need a new MAJOR version, but it is nice to have it there, just in case.
 
+# Upgrades
+In the upgrades folder, there's a guide for each version/board pair, with instructions to upgrade the board up until the latest version. You'll see theres no file for the latest version (As there's no upgrade path for it).
+
+Whenever a new release is published, upgrade path for the now second-oldest release will by published.
+
+> WARNING! I offer no guarantee on anything on this project, but, specially on the upgrades part. 
+
 # Manufacturing
 All boards are tested against JLCPCB and PCBWAY capabilities. For PCBWAY, there is no increase in cost compared to the standard 4 layer board.
 
@@ -29,18 +42,18 @@ All boards are tested against JLCPCB and PCBWAY capabilities. For PCBWAY, there 
 * v0.1.2  First production run for B3. (SDR and ICR)
 * v0.2.0  First MINOR advance. B0+B1+B2+B3 tested and validated. 
 * v0.2.1  Fixes for Reload under Underflow issue. 
+* v0.2.2  First production run for B4 (TOD). It now passes test 01 and 02 in both NEW and OLD modes.
 
 # Changelog
-## [Unreleased but commited]
+## [0.2.2 ] - 23-Jun-2023
 * B0. Some HCT parts are changed to HC
 * B1. Split TIMER into modules for improved readability
 * B2. Split TIMER into modules for improved readability
-* B3. ICR0 reset moved one cycle earlier (Issue #12)
-* B3. ICR1 switch to change between new and old added
-* B3. IRQ switch to change between new and old added
-* B3. Master Switch for Mode Change (In progress)
+* B3. Issue #12. Fixed all issues for test 02
+* B3. Master Switch for Mode Change. (Old vs NEW)
 * B3. Some HC parts are changed to HCT
 * B4. Added TOD PCB and SCH
+* All boards. Published upgrade procedures
 
 ## [0.2.1 ] - 26-Mar-2023
 * All boards. Added pdfs for all schematic and pcbs for all versions for ease of access
@@ -66,8 +79,8 @@ All boards are tested against JLCPCB and PCBWAY capabilities. For PCBWAY, there 
 ## [0.1.1 ] - 24-Aug-2022 
 * B2. First release. 
 * B1. Fixed additional cycle on forceload by removing second flipflop in the chain (rolled-back)
-      Added additionad dFF to Start before being fed into the timer
-      D and DZ moved to separate buses on schematic.
+* B1. Added additionad dFF to Start before being fed into the timer
+* B1. D and DZ moved to separate buses on schematic.
 * B0. Routing optimized. D and DZ moved to separate buses on schematic. Silkscreen improved. 
 
 ## [0.1.0a] - 06-Jun-2022
@@ -80,6 +93,7 @@ All boards are tested against JLCPCB and PCBWAY capabilities. For PCBWAY, there 
 * B0 with DDRs, PORTs, and bus interface
 
 # Status updates
+* June 23, 2023. v0.2.2 released. Adds TOD (B4) and fixes more NEW to OLD issues. Now passes tests 01 and 02.
 * March 26, 2023. v0.2.1 released. Fixes a missing IRQ issue on reload while underflowing. It also adds a selector for OLD vs NEW cia in ICR
 * January 24, 2023. v0.2.0 released. Fixes a potential problem on B1 and B2 with CNT edge detector. It also fixes some bugs on B3. A cleanup of schematic, PCBs and PDFs for all boards has been done. TARUNMODE is removed from controlbus as it is not needed. This triggers a new MINOR version
 * November 01, 2022. v0.1.2 released. Includes B3 (SDR+ICR) and some minor tweaks to all boards

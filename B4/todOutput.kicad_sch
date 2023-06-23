@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "74HCT6526 Board 4")
+    (date "2023-06-22")
+    (rev "0.2.2")
+    (company "Daniel Molina")
+    (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
+  )
+
   (lib_symbols
     (symbol "74xx:74HC373" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 16.51 0)
@@ -1302,7 +1310,7 @@
   (symbol (lib_id "74xx:74HC373") (at 149.86 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0474f95a-11c2-4862-a48b-5566c984bfbf)
-    (property "Reference" "U423" (id 0) (at 151.8794 59.69 0)
+    (property "Reference" "U412" (id 0) (at 151.8794 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC373" (id 1) (at 151.8794 62.23 0)
@@ -1387,7 +1395,7 @@
   (symbol (lib_id "74xx:74HC373") (at 121.92 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 23c82a8e-1f06-48ca-b195-a62cdf582455)
-    (property "Reference" "U405" (id 0) (at 123.9394 19.05 0)
+    (property "Reference" "U406" (id 0) (at 123.9394 19.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC373" (id 1) (at 123.9394 21.59 0)
@@ -1424,7 +1432,7 @@
   (symbol (lib_id "74xx:74HC373") (at 121.92 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 41037049-9652-4071-8b31-22684dfdce8c)
-    (property "Reference" "U422" (id 0) (at 123.9394 101.6 0)
+    (property "Reference" "U417" (id 0) (at 123.9394 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC373" (id 1) (at 123.9394 104.14 0)

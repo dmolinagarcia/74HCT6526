@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "74HCT6526 Board 1")
-    (date "2023-03-25")
-    (rev "0.2.1")
+    (date "2023-06-22")
+    (rev "0.2.2")
     (company "Daniel Molina")
     (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
   )
@@ -4036,7 +4036,7 @@
   (gr_line (start 99.981802 145.005538) (end 199.981802 145.005538) (layer "Edge.Cuts") (width 0.05) (tstamp 2d631137-052e-4140-8a15-8a1f26baae92))
   (gr_line (start 99.981802 45.005538) (end 99.981802 145.005538) (layer "Edge.Cuts") (width 0.05) (tstamp 5d1d4136-3db4-4cc9-926c-fcfd5f0c3f06))
   (gr_line (start 199.981802 145.005538) (end 199.981802 45.005538) (layer "Edge.Cuts") (width 0.05) (tstamp 7b6fb13c-fea2-4966-b4ed-0e934f038130))
-  (gr_text "74HCT6526\nBoard 1\nv0.2.1" (at 156.1592 139.78382) (layer "F.SilkS") (tstamp 2f40c2ed-ea77-481a-b728-3e9572b94a99)
+  (gr_text "74HCT6526\nBoard 1\nv0.2.2" (at 156.1592 139.78382) (layer "F.SilkS") (tstamp 2f40c2ed-ea77-481a-b728-3e9572b94a99)
     (effects (font (size 1 1) (thickness 0.25) italic))
   )
 

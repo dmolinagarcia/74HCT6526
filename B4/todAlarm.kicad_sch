@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "74HCT6526 Board 4")
+    (date "2023-06-22")
+    (rev "0.2.2")
+    (company "Daniel Molina")
+    (comment 1 "https://github.com/dmolinagarcia/74HCT6526")
+  )
+
   (lib_symbols
     (symbol "74xx:74LS377" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 16.51 0)
@@ -1234,7 +1242,7 @@
   (symbol (lib_id "74xx:74LS377") (at 182.88 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3871d568-260c-4d86-8484-b0224b4573b0)
-    (property "Reference" "U409" (id 0) (at 184.8994 43.18 0)
+    (property "Reference" "U408" (id 0) (at 184.8994 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC377" (id 1) (at 184.8994 45.72 0)
@@ -1303,7 +1311,7 @@
   (symbol (lib_id "74xx:74LS377") (at 127 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 79870925-eae0-46d7-841d-0c46a8934498)
-    (property "Reference" "U408" (id 0) (at 129.0194 111.76 0)
+    (property "Reference" "U413" (id 0) (at 129.0194 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC377" (id 1) (at 129.0194 114.3 0)
@@ -1484,7 +1492,7 @@
   (symbol (lib_id "74xx:74LS377") (at 127 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e14e4fe4-671d-4d75-b537-de76ba994a02)
-    (property "Reference" "U401" (id 0) (at 129.0194 43.18 0)
+    (property "Reference" "U402" (id 0) (at 129.0194 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC377" (id 1) (at 129.0194 45.72 0)
@@ -1521,7 +1529,7 @@
   (symbol (lib_id "74xx:74LS377") (at 182.88 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ea467e30-295d-487c-be72-bc3f45a6de5c)
-    (property "Reference" "U410" (id 0) (at 184.8994 111.76 0)
+    (property "Reference" "U420" (id 0) (at 184.8994 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC377" (id 1) (at 184.8994 114.3 0)
